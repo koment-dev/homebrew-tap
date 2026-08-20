@@ -1,26 +1,26 @@
 class Koment < Formula
   desc "Checked out-of-band rationale for code"
   homepage "https://github.com/koment-dev/koment"
-  version "3.1.3"
+  version "3.1.4"
   license "AGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/koment-dev/koment/releases/download/v3.1.3/koment_3.1.3_darwin_arm64.tar.gz"
-      sha256 "c1c75de2042e9768d5b6673b5e6d4b0679ae36a602b6ae984c033037ca7b9829"
+      url "https://github.com/koment-dev/koment/releases/download/v3.1.4/koment_3.1.4_darwin_arm64.tar.gz"
+      sha256 "6b7e880067a77f56d3934d9ec55e9412432036372aa913d43947a44630baff19"
     else
-      url "https://github.com/koment-dev/koment/releases/download/v3.1.3/koment_3.1.3_darwin_amd64.tar.gz"
-      sha256 "351e317d4ea05236d80fc83d18b2a2f9aad781254415a9a710dd9a9eb7607897"
+      url "https://github.com/koment-dev/koment/releases/download/v3.1.4/koment_3.1.4_darwin_amd64.tar.gz"
+      sha256 "67d86498baac368c4100fafb466c20a1909b1f186d231d508c032858666a6da5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/koment-dev/koment/releases/download/v3.1.3/koment_3.1.3_linux_arm64.tar.gz"
-      sha256 "54f60dcd3e988381823a251d37c624104d14e841e3a3082ad687c98bc152f83b"
+      url "https://github.com/koment-dev/koment/releases/download/v3.1.4/koment_3.1.4_linux_arm64.tar.gz"
+      sha256 "a0ab5b42a1de66264f2b809618b5196b914d81ff2f183d395e183296bccabe4a"
     else
-      url "https://github.com/koment-dev/koment/releases/download/v3.1.3/koment_3.1.3_linux_amd64.tar.gz"
-      sha256 "b4fb38d58694ecb3395d7bd93bb945812de33ae8f4bd8ebb61ab1a4c866e8417"
+      url "https://github.com/koment-dev/koment/releases/download/v3.1.4/koment_3.1.4_linux_amd64.tar.gz"
+      sha256 "2661b9d2f69ab58e8baaa25172e0795b5a703f5441e1102eb3864d9e8f42ad72"
     end
   end
 
